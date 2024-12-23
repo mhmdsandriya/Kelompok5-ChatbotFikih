@@ -1,0 +1,453 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Halo", "Hai", "Selamat pagi", "Apa kabar?", "Ada yang bisa saya bantu?", "Assalamualaikum", "Selamat siang", "Selamat sore"
+      ],
+      "responses": [
+        "Halo! Apa yang bisa saya bantu hari ini?", 
+        "Hai! Ada yang bisa saya bantu?", 
+        "Selamat pagi! Apa yang bisa saya bantu?", 
+        "Waalaikumsalam! Bagaimana saya bisa membantu?"
+      ]
+    },
+    {
+      "tag": "tayammum",
+      "patterns": [
+        "Apa itu tayammum?",
+        "Bagaimana tata cara tayammum?",
+        "Kapan diperbolehkan tayammum?",
+        "Apa perbedaan tayammum dan wudhu?",
+        "Apa hikmah dari tayammum?"
+      ],
+      "responses": [
+        "Tayammum adalah bersuci dengan debu sebagai pengganti wudhu atau mandi wajib ketika tidak ada air. Sumber: Al-Qur'an Surat An-Nisa (4:43): 'Jika kamu sakit atau dalam perjalanan atau kembali dari tempat buang air (kakus) atau menyentuh perempuan, kemudian kamu tidak memperoleh air, maka bertayammumlah dengan tanah yang baik (suci).'"
+      ]
+    },
+    {
+      "tag": "khitan",
+      "patterns": [
+        "Apa itu khitan?",
+        "Mengapa khitan itu penting?",
+        "Bagaimana hukum khitan?",
+        "Apa manfaat khitan secara kesehatan?",
+        "Kapan waktu yang baik untuk khitan?"
+      ],
+      "responses": [
+        "Khitan adalah memotong kulit yang menutupi kepala alat kelamin laki-laki, merupakan sunnah Nabi dan simbol kesucian. Sumber: Hadis Riwayat Bukhari: 'Fitrah itu ada lima, salah satunya adalah berkhitan.'"
+      ]
+    },
+    {
+      "tag": "akad_nikah",
+      "patterns": [
+        "Apa itu akad nikah?",
+        "Bagaimana tata cara akad nikah?",
+        "Apa syarat sah akad nikah?",
+        "Apa tujuan dari akad nikah?",
+        "Apa peran wali dalam akad nikah?"
+      ],
+      "responses": [
+        "Akad nikah adalah perjanjian suci antara seorang pria dan wanita yang menjadi dasar pernikahan. Sumber: Al-Qur'an Surat An-Nisa (4:4): 'Berikanlah mahar kepada wanita (yang kamu nikahi) sebagai pemberian dengan penuh kerelaan.'"
+      ]
+    },
+    {
+      "tag": "waris",
+      "patterns": [
+        "Apa itu waris?",
+        "Bagaimana pembagian waris dalam Islam?",
+        "Siapa yang berhak menerima warisan?",
+        "Apa itu hukum waris?",
+        "Apa hikmah dari pembagian waris?"
+      ],
+      "responses": [
+        "Waris adalah pembagian harta peninggalan seseorang yang telah meninggal kepada ahli warisnya sesuai dengan syariat Islam. Sumber: Al-Qur'an Surat An-Nisa (4:11): 'Allah mensyariatkan bagimu tentang (pembagian pusaka untuk) anak-anakmu.'"
+      ]
+    },
+    {
+      "tag": "tayammum",
+      "patterns": [
+        "Apa itu tayammum?",
+        "Bagaimana tata cara tayammum?",
+        "Kapan diperbolehkan tayammum?",
+        "Apa perbedaan tayammum dan wudhu?",
+        "Apa hikmah dari tayammum?"
+      ],
+      "responses": [
+        "Tayammum adalah bersuci dengan debu sebagai pengganti wudhu atau mandi wajib ketika tidak ada air. Sumber: Al-Qur'an Surat An-Nisa (4:43): 'Jika kamu sakit atau dalam perjalanan atau kembali dari tempat buang air (kakus) atau menyentuh perempuan, kemudian kamu tidak memperoleh air, maka bertayammumlah dengan tanah yang baik (suci).'"
+      ]
+    },
+    {
+      "tag": "riba",
+      "patterns": [
+        "Apa itu riba?",
+        "Mengapa riba dilarang?",
+        "Apa saja jenis riba?",
+        "Apa bahaya riba dalam ekonomi?",
+        "Bagaimana cara menghindari riba?"
+      ],
+      "responses": [
+        "Riba adalah tambahan yang diterima dalam transaksi pinjaman yang dilarang dalam Islam. Sumber: Al-Qur'an Surat Al-Baqarah (2:275): 'Orang-orang yang makan (mengambil) riba tidak dapat berdiri melainkan seperti berdirinya orang yang kemasukan setan lantaran (tekanan) penyakit gila.'"
+      ]
+    },
+    {
+      "tag": "mahar",
+      "patterns": [
+        "Apa itu mahar?",
+        "Mengapa mahar wajib dalam pernikahan?",
+        "Apa saja jenis mahar?",
+        "Bagaimana menentukan mahar?",
+        "Apa hukum menunda pembayaran mahar?"
+      ],
+      "responses": [
+        "Mahar adalah pemberian dari mempelai pria kepada mempelai wanita dalam pernikahan. Sumber: Al-Qur'an Surat An-Nisa (4:4): 'Berikanlah mahar (mas kawin) kepada wanita (yang kamu nikahi) sebagai pemberian dengan penuh kerelaan.'"
+      ]
+    },
+    {
+      "tag": "kurban",
+      "patterns": [
+        "Apa itu kurban?",
+        "Kapan waktu pelaksanaan kurban?",
+        "Apa saja hewan yang boleh dikurbankan?",
+        "Bagaimana tata cara kurban?",
+        "Apa hikmah dari ibadah kurban?"
+      ],
+      "responses": [
+        "Kurban adalah menyembelih hewan tertentu sebagai bentuk ibadah pada hari raya Idul Adha. Sumber: Al-Qur'an Surat Al-Kautsar (108:2): 'Maka dirikanlah shalat karena Tuhanmu dan berkurbanlah.'"
+      ]
+    },
+    {
+      "tag": "sewa_menyewa",
+      "patterns": [
+        "Apa itu sewa menyewa?",
+        "Apa saja syarat sah sewa menyewa?",
+        "Bagaimana ketentuan Islam tentang sewa menyewa?",
+        "Bolehkah menyewakan barang yang bukan milik sendiri?",
+        "Apa saja rukun sewa menyewa?"
+      ],
+      "responses": [
+        "Sewa menyewa adalah akad pemindahan manfaat suatu barang atau jasa dengan imbalan tertentu dalam waktu yang disepakati. Sumber: QS. Al-Qashash (28:26): 'Sesungguhnya orang yang paling baik kamu ambil sebagai pekerja ialah orang yang kuat lagi dapat dipercaya.'"
+      ]
+    },
+    {
+      "tag": "gadai",
+      "patterns": [
+        "Apa itu gadai?",
+        "Apa saja syarat sah gadai?",
+        "Bagaimana ketentuan gadai dalam Islam?",
+        "Bolehkah mengambil manfaat dari barang gadai?",
+        "Apa hukum gadai menurut Islam?"
+      ],
+      "responses": [
+        "Gadai adalah menyerahkan suatu barang sebagai jaminan utang, yang akan dikembalikan jika utang lunas. Sumber: QS. Al-Baqarah (2:283): 'Dan jika kamu dalam perjalanan (dan bermuamalah tidak secara tunai), sedangkan kamu tidak memperoleh seorang penulis, maka hendaklah ada barang tanggungan yang dipegang.'"
+      ]
+    },
+    {
+      "tag": "hukuman_pencuri",
+      "patterns": [
+        "Apa hukuman bagi pencuri dalam Islam?",
+        "Bagaimana ketentuan potong tangan untuk pencuri?",
+        "Apa syarat sah hukuman bagi pencuri?",
+        "Apakah semua pencuri dihukum potong tangan?",
+        "Apa dalil tentang hukuman bagi pencuri?"
+      ],
+      "responses": [
+        "Hukuman bagi pencuri dalam Islam adalah potong tangan, jika memenuhi syarat tertentu seperti nilai barang yang dicuri mencapai nisab. Sumber: QS. Al-Ma'idah (5:38): 'Laki-laki yang mencuri dan perempuan yang mencuri, potonglah tangan keduanya sebagai balasan atas apa yang mereka kerjakan.'"
+      ]
+    },
+    {
+      "tag": "hukuman_pembunuh",
+      "patterns": [
+        "Apa hukuman bagi pembunuh dalam Islam?",
+        "Apa itu qisas?",
+        "Bagaimana ketentuan qisas bagi pembunuh?",
+        "Apakah pembunuh bisa dimaafkan?",
+        "Apa dalil tentang hukuman pembunuh?"
+      ],
+      "responses": [
+        "Hukuman bagi pembunuh dalam Islam adalah qisas (balasan setimpal), kecuali jika dimaafkan oleh keluarga korban. Sumber: QS. Al-Baqarah (2:178): 'Hai orang-orang yang beriman, diwajibkan atas kamu qisas berkenaan dengan orang-orang yang dibunuh.'"
+      ]
+    },
+    {
+      "tag": "hukuman_penzina",
+      "patterns": [
+        "Apa hukuman bagi pezina dalam Islam?",
+        "Apa perbedaan hukuman zina bagi yang sudah menikah dan belum menikah?",
+        "Bagaimana cara membuktikan zina?",
+        "Apa syarat sah hukuman bagi pezina?",
+        "Apa dalil tentang hukuman bagi pezina?"
+      ],
+      "responses": [
+        "Hukuman bagi pezina dalam Islam adalah cambuk 100 kali untuk yang belum menikah, dan rajam (dilempari batu hingga mati) bagi yang sudah menikah, jika terbukti melalui pengakuan atau empat saksi. Sumber: QS. An-Nur (24:2): 'Perempuan yang berzina dan laki-laki yang berzina, maka deralah tiap-tiap seorang dari keduanya seratus kali dera.'"
+      ]
+    },
+    {
+      "tag": "hutang",
+      "patterns": [
+        "Apa itu hutang?",
+        "Bagaimana cara mencatat hutang?",
+        "Apa hukum tidak membayar hutang?",
+        "Bagaimana cara melunasi hutang?",
+        "Apa pentingnya memenuhi janji hutang?"
+      ],
+      "responses": [
+        "Hutang adalah kewajiban seseorang untuk mengembalikan sesuatu yang dipinjamnya. Sumber: Al-Qur'an Surat Al-Baqarah (2:282): 'Hai orang-orang yang beriman, apabila kamu bermuamalah tidak secara tunai untuk waktu yang ditentukan, hendaklah kamu menuliskannya.'"
+      ]
+    },
+    {
+      "tag": "taubat",
+      "patterns": [
+        "Apa itu taubat?",
+        "Bagaimana cara bertaubat?",
+        "Mengapa taubat itu penting?",
+        "Apa syarat diterimanya taubat?",
+        "Apa manfaat dari bertaubat?"
+      ],
+      "responses": [
+        "Taubat adalah kembali kepada Allah setelah melakukan dosa, dengan niat tidak mengulanginya. Sumber: Al-Qur'an Surat At-Tahrim (66:8): 'Hai orang-orang yang beriman, bertaubatlah kepada Allah dengan taubat yang sebenar-benarnya.'"
+      ]
+    },
+    {
+      "tag": "fiqih_haji",
+      "patterns": [
+        "Apa itu Haji?", "Kapan saya harus melakukan haji?", "Apa syarat untuk menunaikan haji?", "Bagaimana cara melaksanakan haji?", "Apa yang harus dilakukan selama haji?"
+      ],
+      "responses": [
+        "Haji adalah ibadah wajib bagi umat Islam yang mampu secara fisik dan finansial. Haji dilakukan di Mekkah dan merupakan salah satu dari lima rukun Islam. Sumber: Al-Qur'an Surat Al-Imran (3:97): 'Di dalamnya terdapat tanda-tanda yang jelas, yaitu maqam Ibrahim, dan barangsiapa yang masuk ke dalamnya (Mekkah) dia aman.'"
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": [
+        "Selamat tinggal", "Sampai jumpa", "Dadah", "Semoga hari Anda menyenankan", "Terima kasih", "Salam sejahtera"
+      ],
+      "responses": [
+        "Selamat tinggal! Semoga hari Anda menyenankan. (Sumber: Hadis riwayat Bukhari: Doakan kebaikan saat berpisah.)", 
+        "Sampai jumpa! Semoga hari Anda baik-baik saja. (Sumber: Hadis riwayat Bukhari: Doakan kebaikan saat berpisah.)", 
+        "Terima kasih telah berbicara dengan saya, semoga bermanfaat. (Sumber: Hadis riwayat Bukhari: Doakan kebaikan saat berpisah.)"
+      ]
+    },
+    {
+      "tag": "fiqih_wudhu",
+      "patterns": [
+        "Apa itu wudhu?", "Bagaimana cara berwudhu?", "Jelaskan tentang wudhu", "Apa makna dari wudhu?", "Mengapa wudhu penting?"
+      ],
+      "responses": [
+        "Wudhu adalah ritual pembersihan yang dilakukan sebelum menjalankan salat. Ini meliputi mencuci tangan, wajah, hidung, mulut, kaki, dan lengan. (Sumber: Al-Qur'an Surat Al-Ma'idah (5:6): 'Hai orang-orang yang beriman, apabila kalian hendak salat, maka basuhlah wajah kalian dan tangan kalian sampai siku, serta usaplah kepala dan kaki kalian sampai dengan mata kaki.')"
+      ]
+    },
+    {
+      "tag": "fiqih_salat",
+      "patterns": [
+        "Apa itu Salat?", "Bagaimana cara melaksanakan salat?", "Apa saja langkah-langkah dalam salat?", "Berapa jumlah salat dalam sehari?", "Mengapa salat itu penting?"
+      ],
+      "responses": [
+        "Salat adalah ibadah wajib dalam Islam yang dilakukan lima kali sehari. Salat dilakukan pada waktu tertentu, yaitu Subuh, Dzuhur, Ashar, Maghrib, dan Isya. (Sumber: Al-Qur'an Surat Al-Baqarah (2:238): 'Peliharalah salat, dan salat wustha, dan berdirilah karena Allah dalam keadaan khusyuk.')"
+      ]
+    },
+    {
+      "tag": "fiqih_zakat",
+      "patterns": [
+        "Apa itu Zakat?", "Jelaskan tentang zakat", "Bagaimana cara membayar zakat?", "Kapan zakat diwajibkan?", "Apa saja jenis zakat?"
+      ],
+      "responses": [
+        "Zakat adalah kewajiban umat Islam untuk menyisihkan sebagian hartanya (2,5%) untuk diberikan kepada yang membutuhkan. Zakat termasuk salah satu rukun Islam. (Sumber: Al-Qur'an Surat At-Tawbah (9:60): 'Sesungguhnya zakat-zakat itu hanya untuk orang-orang fakir, orang-orang miskin, amil yang mengurusnya, muallaf yang dijinakkan hatinya, untuk hamba sahaya, orang yang berhutang, untuk jalan Allah, dan untuk musafir. Itulah ketetapan dari Allah.')"
+      ]
+    },
+    {
+      "tag": "syahadat",
+      "patterns": [
+        "Apa itu syahadat?",
+        "Mengapa syahadat penting?",
+        "Bagaimana cara mengucapkan syahadat?",
+        "Apa isi syahadat?",
+        "Apa makna syahadat?"
+      ],
+      "responses": [
+        "Syahadat adalah kesaksian bahwa tiada Tuhan selain Allah dan Muhammad adalah utusan-Nya. Syahadat adalah rukun Islam yang pertama. (Sumber: Hadis riwayat Bukhari dan Muslim: 'Barangsiapa mengucapkan La ilaha illallah dengan ikhlas, maka ia akan masuk surga.')"
+      ]
+    },
+    {
+      "tag": "kematian",
+      "patterns": [
+        "Apa itu kematian?",
+        "Mengapa kita harus mempersiapkan kematian?",
+        "Apa yang terjadi setelah kematian?",
+        "Bagaimana cara menghadapi kematian dengan tenang?",
+        "Apa tanda-tanda kematian seseorang?"
+      ],
+      "responses": [
+        "Kematian adalah akhir dari kehidupan di dunia dan awal dari kehidupan akhirat. Setiap makhluk pasti akan menghadapi kematian. Sumber: Al-Qur'an Surat Al-Ankabut (29:57): 'Tiap-tiap yang berjiwa akan merasakan mati.'"
+      ]
+    },
+    {
+      "tag": "sabar",
+      "patterns": [
+        "Apa itu sabar?",
+        "Mengapa sabar itu penting?",
+        "Bagaimana cara melatih kesabaran?",
+        "Apa manfaat dari sabar?",
+        "Apa ciri-ciri orang yang sabar?"
+      ],
+      "responses": [
+        "Sabar adalah menahan diri dari rasa marah, gelisah, atau putus asa saat menghadapi ujian. Sabar mendatangkan pahala besar. Sumber: Al-Qur'an Surat Az-Zumar (39:10): 'Sesungguhnya hanya orang-orang yang bersabar yang dicukupkan pahala mereka tanpa batas.'"
+      ]
+    },
+    {
+      "tag": "sedekah",
+      "patterns": [
+        "Apa itu sedekah?",
+        "Mengapa sedekah itu penting?",
+        "Bagaimana cara bersedekah?",
+        "Apa manfaat sedekah?",
+        "Kepada siapa sedekah diberikan?"
+      ],
+      "responses": [
+        "Sedekah adalah pemberian sukarela kepada orang yang membutuhkan. Sedekah bisa berupa harta, tenaga, atau senyuman. (Sumber: Hadis riwayat Tirmidzi: 'Senyummu kepada saudaramu adalah sedekah.')"
+      ]
+    },
+    {
+      "tag": "shalawat",
+      "patterns": [
+        "Apa itu shalawat?",
+        "Mengapa kita harus bershalawat?",
+        "Bagaimana cara bershalawat?",
+        "Apa manfaat shalawat?",
+        "Kapan waktu yang baik untuk bershalawat?"
+      ],
+      "responses": [
+        "Shalawat adalah doa kepada Allah untuk Nabi Muhammad. Shalawat memberikan keberkahan dan mendekatkan kita kepada Rasulullah. (Sumber: Al-Qur'an Surat Al-Ahzab (33:56): 'Sesungguhnya Allah dan malaikat-malaikat-Nya bershalawat untuk Nabi.')"
+      ]
+    },
+    {
+      "tag": "doa",
+      "patterns": [
+        "Apa itu doa?",
+        "Bagaimana cara berdoa?",
+        "Apa manfaat doa?",
+        "Mengapa doa itu penting?",
+        "Kapan waktu terbaik untuk berdoa?"
+      ],
+      "responses": [
+        "Doa adalah permohonan kepada Allah. Doa adalah wujud ketergantungan kita kepada-Nya dan dapat dilakukan kapan saja. (Sumber: Hadis riwayat Tirmidzi: 'Doa adalah ibadah.')"
+      ]
+    },
+    {
+      "tag": "takwa",
+      "patterns": [
+        "Apa itu takwa?",
+        "Bagaimana cara menjadi orang yang bertakwa?",
+        "Apa manfaat dari takwa?",
+        "Mengapa takwa itu penting?",
+        "Apa ciri-ciri orang yang bertakwa?"
+      ],
+      "responses": [
+        "Takwa adalah menjalankan perintah Allah dan menjauhi larangan-Nya. Takwa adalah tanda keimanan yang kuat. Sumber: Al-Qur'an Surat Al-Baqarah (2:2): 'Kitab ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa.'"
+      ]
+    },
+    {
+      "tag": "ikhlas",
+      "patterns": [
+        "Apa itu ikhlas?",
+        "Bagaimana cara ikhlas dalam beribadah?",
+        "Mengapa ikhlas itu penting?",
+        "Apa manfaat dari ikhlas?",
+        "Bagaimana cara melatih hati untuk ikhlas?"
+      ],
+      "responses": [
+        "Ikhlas adalah melakukan sesuatu semata-mata karena Allah, tanpa mengharapkan pujian dari manusia. Sumber: Hadis riwayat Bukhari: 'Sesungguhnya amal itu tergantung pada niatnya.'"
+      ]
+    },
+    {
+      "tag": "pernikahan",
+      "patterns": [
+        "Apa itu pernikahan dalam Islam?",
+        "Apa saja rukun pernikahan?",
+        "Apa syarat sah pernikahan?",
+        "Bagaimana hukum menikah dalam Islam?",
+        "Apa tujuan pernikahan menurut syariat?"
+      ],
+      "responses": [
+        "Pernikahan dalam Islam adalah akad yang menghalalkan hubungan antara laki-laki dan perempuan dengan tujuan membentuk keluarga yang sakinah, mawaddah, dan rahmah. Sumber: QS. Ar-Rum (30:21): 'Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri supaya kamu cenderung dan merasa tenteram kepadanya.'"
+      ]
+    },
+    {
+      "tag": "perceraian",
+      "patterns": [
+        "Apa itu perceraian dalam Islam?",
+        "Bagaimana tata cara perceraian?",
+        "Apa syarat sah perceraian?",
+        "Apa hukum perceraian dalam Islam?",
+        "Apa dalil tentang perceraian?"
+      ],
+      "responses": [
+        "Perceraian dalam Islam adalah pengakhiran hubungan pernikahan dengan talak atau fasakh sesuai dengan syariat. Perceraian merupakan perkara halal yang paling dibenci Allah. Sumber: HR. Abu Dawud: 'Perkara halal yang paling dibenci oleh Allah adalah talak.'"
+      ]
+    },
+    {
+      "tag": "masa_iddah",
+      "patterns": [
+        "Apa itu masa iddah?",
+        "Berapa lama masa iddah bagi perempuan yang bercerai?",
+        "Bagaimana masa iddah bagi perempuan yang ditinggal mati suami?",
+        "Apa tujuan dari masa iddah?",
+        "Apa dalil tentang masa iddah?"
+      ],
+      "responses": [
+        "Masa iddah adalah waktu tunggu yang harus dijalani perempuan setelah bercerai atau ditinggal mati suami, untuk memastikan tidak ada kehamilan. Sumber: QS. Al-Baqarah (2:228): 'Dan perempuan-perempuan yang bercerai hendaklah menahan diri (menunggu) tiga kali quru.'"
+      ]
+    },
+    {
+      "tag": "nafkah",
+      "patterns": [
+        "Apa itu nafkah dalam Islam?",
+        "Apa kewajiban suami dalam memberikan nafkah?",
+        "Bagaimana jika suami tidak memberikan nafkah?",
+        "Apa saja jenis nafkah yang harus diberikan?",
+        "Apa dalil tentang nafkah dalam Islam?"
+      ],
+      "responses": [
+        "Nafkah adalah kewajiban suami untuk memenuhi kebutuhan istri dan keluarganya, termasuk makanan, pakaian, dan tempat tinggal. Sumber: QS. An-Nisa (4:34): 'Kaum laki-laki itu adalah pemimpin bagi kaum perempuan, karena Allah telah melebihkan sebagian mereka (laki-laki) atas sebagian yang lain (perempuan) dan karena mereka (laki-laki) telah menafkahkan sebagian dari harta mereka.'"
+      ]
+    },
+    {
+      "tag": "maisyah",
+      "patterns": [
+        "Apa itu ma'isyah?",
+        "Bagaimana cara mencari ma'isyah yang halal?",
+        "Apa hukum bekerja dalam Islam?",
+        "Apa saja sumber ma'isyah dalam Islam?",
+        "Apa dalil tentang ma'isyah?"
+      ],
+      "responses": [
+        "Ma'isyah adalah usaha mencari rezeki untuk memenuhi kebutuhan hidup secara halal. Islam mendorong umatnya untuk bekerja keras dan menghindari meminta-minta. Sumber: QS. Al-Jumu'ah (62:10): 'Apabila telah ditunaikan shalat, maka bertebaranlah kamu di muka bumi; dan carilah karunia Allah.'"
+      ]
+    },
+    {
+      "tag": "jihad",
+      "patterns": [
+        "Apa itu jihad?",
+        "Bagaimana cara berjihad?",
+        "Apa makna jihad?",
+        "Apakah jihad selalu berarti perang?",
+        "Apa manfaat jihad?"
+      ],
+      "responses": [
+        "Jihad berarti bersungguh-sungguh di jalan Allah. Jihad tidak selalu berarti perang, tetapi juga melawan hawa nafsu. (Sumber: Hadis riwayat Bukhari: 'Jihad yang paling utama adalah melawan hawa nafsu.')"
+      ]
+    },
+    {
+      "tag": "takwa",
+      "patterns": [
+        "Apa itu takwa?",
+        "Bagaimana cara menjadi orang yang bertakwa?",
+        "Apa manfaat dari takwa?",
+        "Mengapa takwa itu penting?",
+        "Apa ciri-ciri orang yang bertakwa?"
+      ],
+      "responses": [
+        "Takwa adalah menjalankan perintah Allah dan menjauhi larangan-Nya. Takwa adalah tanda keimanan yang kuat. (Sumber: Al-Qur'an Surat Al-Baqarah (2:2): 'Kitab ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa.')"
+      ]
+    }
+  ]
+}
